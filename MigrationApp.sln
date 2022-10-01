@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{9E933094-D2F2-497E-861C-490561C3CD1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{F8306C9A-4A90-4877-A2F1-94248E3ECC19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigrationApi", "MigrationApi\MigrationApi.csproj", "{2C1A38D8-241D-479E-BE12-1978D8614486}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E933094-D2F2-497E-861C-490561C3CD1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E933094-D2F2-497E-861C-490561C3CD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E933094-D2F2-497E-861C-490561C3CD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E933094-D2F2-497E-861C-490561C3CD1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8306C9A-4A90-4877-A2F1-94248E3ECC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8306C9A-4A90-4877-A2F1-94248E3ECC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8306C9A-4A90-4877-A2F1-94248E3ECC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8306C9A-4A90-4877-A2F1-94248E3ECC19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C1A38D8-241D-479E-BE12-1978D8614486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C1A38D8-241D-479E-BE12-1978D8614486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C1A38D8-241D-479E-BE12-1978D8614486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C1A38D8-241D-479E-BE12-1978D8614486}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
